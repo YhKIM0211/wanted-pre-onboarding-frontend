@@ -5,7 +5,7 @@
 * user input 유효성검사
 * jwt token 기반 사용자 인증
 * 로그인 여부에 따른  페이지 접근제한, 리다이렉트
-* todoList의 CRUD (새로고침 후 내용, 토글 유지)
+* todoList의 CRUD (새로고침 후 내용과 토글 유지)
 ## 실행 방법
 ```
 npm install 
