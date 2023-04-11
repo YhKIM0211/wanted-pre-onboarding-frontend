@@ -39,7 +39,7 @@ export const StyleDiv = styled.div`
         max-width: 250px;
         margin: 0 auto;
         margin-left: 10px;
-        height: 1.6rem;
+        height: 1.4rem;
         border: 2px solid #E0E4E8; 
         background-color: transparent;
         margin-bottom: 9px;
@@ -68,7 +68,7 @@ export const StyleDiv = styled.div`
 
 export const Btn = styled.button`
 	width: ${(props) => props.width || "36px"};
-	height: ${(props) => props.height || "2rem"};
+	height: ${(props) => props.height || "1.6rem"};
     margin-left: 7px;
 	box-sizing: border-box;
 	border: ${(props) => props.primary? "1px solid #2CB8E3" : "1px solid #E0E4E8" };
