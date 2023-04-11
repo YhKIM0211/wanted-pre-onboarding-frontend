@@ -7,9 +7,8 @@ import { Private, Public } from './Routes';
 import { NotFound } from './page/NotFound';
 
 function App() {
-  console.log("env",process.env.REACT_APP_PUBLIC_URLY)
   return (
-    <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path={'/'} element={<Home />}></Route>
         <Route element={<Public />}>
