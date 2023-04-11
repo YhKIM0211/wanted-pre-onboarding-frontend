@@ -32,4 +32,4 @@ npm start
 ## 과제구현 기준
 >[가이드 라인](https://github.com/walking-sunset/selection-task)
 ## 데모
-데모
+![React App - Chrome 2023-04-11 23-44-09 - Trim](https://user-images.githubusercontent.com/74903774/231228662-8202838a-2ba6-4b63-b7c9-dbbbd81f3d19.gif)
