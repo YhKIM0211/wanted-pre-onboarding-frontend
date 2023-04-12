@@ -1,8 +1,7 @@
 import React from 'react'
 import { TodoItem } from './TodoItem'
 
-export const TodoList = ({data}) => {
-	
+export const TodoList = ({data}) => {	
   return (
     <ul className="todo_list">
 			{

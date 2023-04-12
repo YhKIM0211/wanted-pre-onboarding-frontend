@@ -14,7 +14,7 @@ export const TodoItem = ({todo, id, isCompleted}) => {
 			deleteRequest(id).then( res => {
 				console.log(res);
 				if(res === 204 ) {
-          			setDelState(true);
+          setDelState(true);
 				} 
 			})
 
@@ -46,8 +46,8 @@ export const TodoItem = ({todo, id, isCompleted}) => {
 										<span>{updateContent}</span>
 									</label>	
 									<Btn data-testid="modify-button" 
-										 onClick={() => setModify(true)}
-										 primary
+										onClick={() => setModify(true)}
+										primary
 									>
 										수정
 									</Btn>
